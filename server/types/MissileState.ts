@@ -4,10 +4,11 @@ export interface MissileState {
     green: number,
     blue: number,
     yellow: number,
-    winner?: string
-    loser?: string
+    winner?: string,
+    loser?: string,
     isReadyToStarted?: boolean,
     hasStopped?: boolean,
-    hasStarded?: boolean,
-    hasFinished?: boolean
+    hasStarted?: boolean,
+    hasFinished?: boolean,
+    [key: string]: number | string | boolean | undefined; // Firma de índice
 }

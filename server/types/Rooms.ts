@@ -1,14 +1,14 @@
-import { CaballosState } from "./MissileState";
+import { MissileState } from "./MissileState";
 import { User } from "./User";
 
 export interface Rooms {
     [roomid: string]: {
         users: Array<User>,
-        state: CaballosState,
+        state: MissileState,
         titulo?: string,
         descripcion?: string,
         link?: string,
-        caballosCount?: number,
+        missileCount?: number,
         teamsColor: Array<string>,
         teamsPlayerCount: Array<number>,
         startTime?: string,

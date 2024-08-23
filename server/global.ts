@@ -1,9 +1,9 @@
 const X = 1120;
 const Y = 630;
 
-const HORSESINITIALX = 50;
-const HORSESINITIALY = 250;
-const HORSESYGAP = 75;
+const MISSILESINITIALX = 50;
+const MISSILESINITIALY = 250;
+const MISSILESYGAP = 75;
 
 const INITIALTIMEINSECONDS = 3;
 const TIMER = 30;
@@ -11,9 +11,9 @@ const TIMER = 30;
 export const CONFIG = {
     x: X,
     y: Y,
-    HorsesInitialX: HORSESINITIALX,
-    HorsesInitialY: HORSESINITIALY,
-    HorsesYGap: HORSESYGAP,
+    MissilesInitialX: MISSILESINITIALX,
+    MissilesInitialY: MISSILESINITIALY,
+    MissilesYGap: MISSILESYGAP,
     initialTimeInSeconds: INITIALTIMEINSECONDS,
     timer: TIMER,
   };
